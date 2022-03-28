@@ -26,12 +26,12 @@ export class CreateUsers1648133052108 implements MigrationInterface {
                    default: false, 
                 },
                 {
-                    name: "create_at",
+                    name: "created_at",
                     type: "timestamp",
                     default: "now()"
                 },
                 {
-                    name: "updade_at",
+                    name: "updated_at",
                     type: "timestamp",
                     default: "now()",
                 }
